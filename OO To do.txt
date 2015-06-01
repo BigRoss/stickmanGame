@@ -1,0 +1,64 @@
+-Make sure backwards compatible for stg 1 too!
+
+-Change spawn variables to make it more uncommon for powerups/enemies
+
+Get rid of comments marked DELETE
+
+Key release and stuff so i can hold down keys?
+
+ENEMY
+-draw the image - DONE
+-move it - DONE
+-check collision with stickman - DONE
+-check collision with obstacles - DONE
+
+TESTING FRAMEWORK
+-Make test class etc - DONE
+
+EXTENSION!!!
+-power ups can shoot bullets or something?
+-Nasheed AHAHAHAH
+
+POWER UPS
+-Stickman changes colour with different power ups?
+-float around screen - SEMI - DONE GOTTA FIX, CANT FIX OMGGGG
+
+Done:
+
+-------------------------------------------------------------------------------------
+
+Start vairables from outside of the screen. - DONE
+Fix collision from jumping on top of obstacles. - DONE
+Fix collision when landing on obstacles - DONE
+Fix bg moving unless stickman moves - DONE
+Fix Stickman passing through obstacles when jump_velocity >= 0  - DONE
+Fix Obstacle starting point to off the screen! - DONE
+Walking to the left into an obstacle not a collision - DONE
+Check out of bounds a bit weird past stg 2 - DONE
+Create stages: edit config file and inputting stuff - DONE
+-Needs to be readable by dialog... add breaks between stages in obstacle vector - DONE
+Add text to finish end of level? - DONE
+Maybe pause at end of level? - DONE
+When all levels complete, what to do? - DONE
+Reset_position() for stickman, reset y and jump vlocity TOO!!! - DONE
+Start stage as not moving. - DONE
+Use 2d vector instead of null values to find stage. - Done
+-If spawn is true then show, if false then no power up is shown - DONE
+-type variable in powerup showing which power up it is - DONE
+-Only collect power up if spawn is TRUE! - DONE
+-Use camera stuff from teh article - DONE
+-Make a setting for stage 3 enabled or something - Done.
+-change size of stickman when collision with power up - DONE OH MY GOD FCKIN DONE YES JUTS GONNA SIT HERE AND FAP TIL I DIE
+-stickman collects, THEN activates at will? idk - DONE
+-stage3 variable in dialog? - DONE
+-Stickman size backwards compatibility, main file have to accept string input for stickman size IDk - DONE
+-check if i'm starting iwth correct size, don't use powerups m8 - DONE
+-state design pattern for stickman doing stuff - DONE
+-make timer for powerup? - DONE
+-When changing stages get rid of the power up - DONE
+Change bg moving for stg 3 - DONE
+End game maybe kep scrolling the screen but remove stickman - DONE
+Checkpoint instead of checking if all obstacles are off - DONE
+-Change bg move speed when in giant form - DONE
+Fix checkpoint positioning! - DONE
+Dont destroy the checkpoint obstacle... - DONE
